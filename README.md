@@ -1,7 +1,17 @@
 # http-go-server
 implementing http with go
 
-What do I want to acheive with this?
+## Tests
+
+- [ ] If TCPServer successfully binds to a port it outputs to stdout "Listening on port: <port>"
+- [ ] If TCPServer fails to bind to port it outputs an error "Unable to bind to port: <port>"
+
+## Notes:
+
+- [ ] need to break up stuff and try to follow srp
+- [ ] will need to look into how to mock a function for net.Listen
+
+## What do I want to acheive with this?
 
 I want to be able to make http work and not just understand how it works. 
 
