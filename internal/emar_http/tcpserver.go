@@ -29,7 +29,7 @@ func (ts *TCPServer) Start() error {
       log.Fatalln(err)
     }
 
-    go HandleConnection(conn) 
+    go HandleConnection(conn)
   }
 }
 
@@ -52,4 +52,8 @@ func HandleConnection(conn net.Conn) {
   fmt.Printf("bytes writen: %d", n)
 
   conn.Close()
+}
+
+func (ts *TCPServer) TestConnection() (string, error) {
+  return "sucessfully able to create server", nil
 }

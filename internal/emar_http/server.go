@@ -6,6 +6,7 @@ import (
 
 type Server interface {
   Start() error
+  TestConnection()  (string, error)
 }
 
 func CreateServer(protocol string, address string) (Server, error) {

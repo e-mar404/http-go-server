@@ -15,5 +15,8 @@ func main() {
     log.Fatalln(err)
   }
 
-  server.Start()
+  err = server.Start()
+  if err != nil {
+    log.Fatalln(err)
+  }
 }
