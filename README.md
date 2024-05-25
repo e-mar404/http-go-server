@@ -8,7 +8,6 @@ implementing http with go
 
 ## Notes:
 
-- [ ] need to break up stuff and try to follow srp
 - [ ] will need to look into how to mock a function for net.Listen
 
 ## What do I want to acheive with this?
